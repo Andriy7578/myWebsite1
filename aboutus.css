@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+.header {
+    background-color: #424141;  
+  }
+  
+  .header a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      padding: 15px;
+      display: inline-block;
+  }
+  
+  ul {
+      display: inline;
+      margin: 0;
+      padding: 0;
+  }
+  
+  ul li {
+      display: inline-block;  
+  }
+  
+  ul li:hover {
+      background: #555;
+  }
+  
+  ul li:hover ul {
+      display: block;
+  }
+  
+  ul li ul {
+      position: absolute;
+      width: 200px;
+      display: none;
+  }
+  
+  ul li ul li {
+      background: #555;
+      display: block;
+  }
+  
+  ul li ul li a {
+      display: block !important;
+  }
+  
+  ul li ul li:hover {
+      background: #666;
+  }
+  
+  .nav {
+    min-height: 40px;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-flow: row;
+    color: white;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    justify-content: space-around;
+}
+
+
+.menu li {
+    padding: 10px;
+}
+
+.name {
+    display: block;
+    margin-right: auto;
+    color: white;
+}
+
+
+h1 {
+    margin: 30px 0px 20px 30px;
+}
+
+p {
+    color: #333;
+    font-size: 16px;
+    margin-left: 30px;
+    width: 900px;
+    font-family: "Open Sans",Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+}
+
+ol li {
+    margin-top: 10px;
+    color: #333;
+    font-size: 16px;
+    margin-left: 45px;
+    font-family: "Open Sans",Arial,"Helvetica CY","Nimbus Sans L",sans-serif;
+}
